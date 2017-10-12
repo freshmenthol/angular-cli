@@ -1,0 +1,25 @@
+Hi people, 
+i'm new on the freesoft world and still i dont understad so much how to fix some problems
+I have the problem with the install of @angular/cli on Manjaro. 
+
+1st sudo pacman -S nodejs npm
+2nd sudo npm install -g @angular/cli
+
+gyp verb tmpdir == cwd automatically will remove dev files after to save disk space
+gyp verb command install [ '8.6.0' ]
+gyp verb install input version string "8.6.0"
+gyp verb install installing version: 8.6.0
+gyp verb install --ensure was passed, so won't reinstall if already installed
+gyp verb install version not already installed, continuing with install 8.6.0
+gyp verb ensuring nodedir is created /usr/lib/node_modules/@angular/cli/node_modules/node-sass/.node-gyp/8.6.0
+gyp WARN EACCES user "root" does not have permission to access the dev dir "/usr/lib/node_modules/@angular/cli/node_modules/node-sass/.node-gyp/8.6.0"
+gyp WARN EACCES attempting to reinstall using temporary dev dir "/usr/lib/node_modules/@angular/cli/node_modules/node-sass/.node-gyp"
+
+
+i tried with non permission, with root permission and still have a problem with the dev dir  "/usr/lib/node_modules/@angular/cli/node_modules .... 
+
+I have been tried the https://docs.npmjs.com/getting-started/fixing-npm-permissions recomends but the problem still persist.
+
+So, how i can fix this error?, please if anyone one know how i have to fix this problem help me with the step by step.
+
+Thx to all.
